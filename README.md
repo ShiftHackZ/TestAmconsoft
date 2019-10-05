@@ -8,11 +8,11 @@ This android application demonstrates how to use Google authorization, Crashlyti
 
 #### Video demonstation
 
-Video preview is available <a href="" target="_blank">here</a>.
+Video preview is available <a href="https://youtu.be/KX4S7hegGxs" target="_blank">here</a>.
 
 #### Release
 
-Download <a href="https://youtu.be/KX4S7hegGxs" target="_blank">apk file</a>.
+Download <a href="https://drive.google.com/open?id=1d_mUwDRlVHciEP0wCrhC3HhTvnhKBpMt" target="_blank">apk file</a>.
 
 #### Architecture
 
