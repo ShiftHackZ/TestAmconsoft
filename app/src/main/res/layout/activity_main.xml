@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.activities.main.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/inc_divider"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:background="@color/colorLightGreen"
+            android:paddingStart="@dimen/indentation_8"
+            android:paddingEnd="@dimen/indentation_8"
+            android:textSize="@dimen/txt_size_14"
+            android:text="@string/category_account" />
+
+        <include layout="@layout/inc_divider"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/indentation_8">
+
+        <ImageView
+            android:id="@+id/ivUserAvatar"
+            android:layout_width="@dimen/viewparams_110"
+            android:layout_height="@dimen/viewparams_110"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/indentation_16"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt_size_28"
+                tools:text="Dmitriy Moroz"/>
+
+            <TextView
+                android:id="@+id/tvUserMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt_size_18"
+                tools:text="dmitriy@moroz.cc"/>
+
+            <Button
+                android:id="@+id/btnSignOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_sign_out"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/inc_divider"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:background="@color/colorLightGreen"
+            android:paddingStart="@dimen/indentation_8"
+            android:paddingEnd="@dimen/indentation_8"
+            android:textSize="@dimen/txt_size_14"
+            android:text="@string/category_users_list" />
+
+        <include layout="@layout/inc_divider"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvUsers"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/txt_size_40"
+        android:gravity="center"
+        android:text="@string/hint_no_users_available"/>
+</LinearLayout>

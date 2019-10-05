@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "411662784460",
+    "firebase_url": "https://testamconsoft.firebaseio.com",
+    "project_id": "testamconsoft",
+    "storage_bucket": "testamconsoft.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411662784460:android:3df0421a21138a9e5a6f69",
+        "android_client_info": {
+          "package_name": "com.shifthackz.testamconsoft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411662784460-ppc4iduqogspj7c1jt91qp71ps8mkarg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shifthackz.testamconsoft",
+            "certificate_hash": "5f89a1b1618b2ff5cc28f9583d1ff024e899df6a"
+          }
+        },
+        {
+          "client_id": "411662784460-ttiqjjbn1adtvikufijigdpsgp0tlmcu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJdk21GvvuNT1VHQmJ2YrRDFc1Pn6D70E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411662784460-n97eq070m9cih86icq8itps0cri994lh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

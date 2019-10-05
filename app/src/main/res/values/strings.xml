@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Test Amconsoft</string>
+    <string name="EXTRAS_ID">ID</string>
+    <string name="hint_sign_in">Login with Google</string>
+    <string name="hint_sign_out">Sign Out</string>
+    <string name="google_secret_api_key">AIzaSyDJdk21GvvuNT1VHQmJ2YrRDFc1Pn6D70E</string>
+    <string name="category_location">Location</string>
+    <string name="category_personal">Personal information</string>
+    <string name="category_address">Home Address</string>
+    <string name="category_company">Company information</string>
+    <string name="category_account">Account information</string>
+    <string name="hint_no_users_available">No users available</string>
+    <string name="error_auth_fail">Auth failed!</string>
+    <string name="hint_tools_bs">BS</string>
+    <string name="hint_tools_company_name">Amconsoft Inc</string>
+    <string name="hint_tools_address_zip">49100</string>
+    <string name="hint_tools_address_city">City</string>
+    <string name="hint_tools_address_suite">Suite</string>
+    <string name="hint_tools_address_street">Street</string>
+    <string name="hint_tools_phone">1-770-736-8031</string>
+    <string name="hint_tools_website">moroz.cc</string>
+    <string name="hint_tools_mail">dmitriy@moroz.cc</string>
+    <string name="hint_tools_name">Dmitriy Moroz</string>
+    <string name="category_users_list">Users nearby</string>
+</resources>

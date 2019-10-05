@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presentation.activities.detail.DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/inc_divider"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:background="@color/colorLightGreen"
+            android:paddingStart="@dimen/indentation_8"
+            android:paddingEnd="@dimen/indentation_8"
+            android:textSize="@dimen/txt_size_14"
+            android:text="@string/category_location" />
+
+        <include layout="@layout/inc_divider"/>
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/fragmentGoogleMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewparams_300" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/inc_divider"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="true"
+                    android:background="@color/colorLightGreen"
+                    android:paddingStart="@dimen/indentation_8"
+                    android:paddingEnd="@dimen/indentation_8"
+                    android:textSize="@dimen/txt_size_14"
+                    android:text="@string/category_personal" />
+
+                <include layout="@layout/inc_divider"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/indentation_8">
+
+                <TextView
+                    android:id="@+id/tvDetailUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_size_40"
+                    tools:text="@string/hint_tools_name" />
+
+                <TextView
+                    android:id="@+id/tvDetailUserMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_size_24"
+                    tools:text="@string/hint_tools_mail" />
+
+                <TextView
+                    android:id="@+id/tvDetailUserWebsite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_size_24"
+                    tools:text="@string/hint_tools_website" />
+
+                <TextView
+                    android:id="@+id/tvDetailUserPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_size_24"
+                    tools:text="@string/hint_tools_phone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/inc_divider" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="true"
+                    android:background="@color/colorLightGreen"
+                    android:paddingStart="@dimen/indentation_8"
+                    android:paddingEnd="@dimen/indentation_8"
+                    android:textSize="@dimen/txt_size_14"
+                    android:text="@string/category_address" />
+
+                <include layout="@layout/inc_divider"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/indentation_8">
+
+                <TextView
+                    android:id="@+id/tvDetailAddressStreet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_size_24"
+                    tools:text="@string/hint_tools_address_street" />
+
+                <TextView
+                    android:id="@+id/tvDetailAddressSuite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_size_18"
+                    tools:text="@string/hint_tools_address_suite" />
+
+                <TextView
+                    android:id="@+id/tvDetailAddressCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_size_18"
+                    tools:text="@string/hint_tools_address_city" />
+
+                <TextView
+                    android:id="@+id/tvDetailAddressZip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_size_18"
+                    tools:text="@string/hint_tools_address_zip" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/inc_divider"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="true"
+                    android:background="@color/colorLightGreen"
+                    android:paddingStart="@dimen/indentation_8"
+                    android:paddingEnd="@dimen/indentation_8"
+                    android:textSize="@dimen/txt_size_14"
+                    android:text="@string/category_company" />
+
+                <include layout="@layout/inc_divider"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/indentation_8">
+
+                <TextView
+                    android:id="@+id/tvDetailCompanyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_size_24"
+                    tools:text="@string/hint_tools_company_name" />
+
+                <TextView
+                    android:id="@+id/tvDetailCompanyBs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/txt_size_18"
+                    tools:text="@string/hint_tools_bs" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
